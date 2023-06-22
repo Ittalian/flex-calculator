@@ -79,7 +79,7 @@ int Term() {
              r  /=nextToken.val.iv;
              nextToken = getNextToken();
         }
-        else if(nextToken.type == &){
+        else if(nextToken.type == ampersand){
             nextToken = getNextToken();
             
              r  =r*nextToken.val.iv;
